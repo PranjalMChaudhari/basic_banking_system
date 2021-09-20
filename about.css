@@ -1,0 +1,183 @@
+﻿/* Social Media */
+.social-footer{
+
+    background: transparent;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    position:absolute;
+    bottom:30px;
+    height:50px;
+}
+.social{
+    list-style: none;
+    float: left;
+    display: flex;  
+}
+.social li{
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 40px;
+}
+.copyright{
+	text-align: right;
+	display: block;
+	font-size: 23px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color: gray;
+	bottom: 0;
+	right: 0;
+}
+
+.fb{
+	width: 50px;
+	height: 50px;
+}
+
+.fb .border {
+	background: transparent;
+	outline: none;
+	
+	width: 50px;
+	height: 50px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	border-radius: 100px;
+	border: 2px solid #436aaf;
+	transition: all .2s linear;
+  }
+  
+  .fb .border:hover {
+	transform: scale(1.2);
+  }
+  
+  .fa.fa-facebook {
+	font-size: 25px;
+	color: #421575;
+  }
+  
+  /** Twitter **/
+  
+  .twitter {
+	width: 50px;
+	height: 50px;
+  }
+  
+  .twitter .border {
+	background: transparent;
+	outline: none;
+	width: 50px;
+	height: 50px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	border-radius: 100px;
+	border: 2px solid #72c6e6;
+	transition: all .2s linear;
+  }
+  
+  .twitter .border:hover {
+	transform: scale(1.2);
+  }
+  
+  .fa.fa-twitter {
+	font-size: 25px;
+	color: #0097e6;
+  }
+  
+  /* Instagram */
+  
+  .insta {
+	width: 50px;
+	height: 50px;
+  }
+  
+  .insta .border {
+	background: transparent;
+	outline: none;
+	color:#893dc2;
+	width: 50px;
+	height: 50px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	border-radius: 100px;
+	border: 2px solid #bc318f;
+	transition: all .2s ease-in-out;
+  }
+  
+  .insta .border:hover {
+	background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), 
+				radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), 
+				radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), 
+				radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), 
+				radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), 
+				radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), 
+				radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), 
+				linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);;
+	border-color: transparent;
+	color: rgba(255,255,255, 0.9);
+	transform: scale(1.2);
+  }
+  
+  .fa.fa-instagram {
+	font-size: 25px;
+  }
+
+  /* LinkedIn */
+
+  .linkedin {
+	width: 50px;
+	height: 50px;
+  }
+  
+  .linkedin .border {
+	background: transparent;
+	outline: none;
+	color:#5258cf;
+	width: 50px;
+	height: 50px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	border-radius: 100px;
+	border: 2px solid #6559ca;
+	transition: all .2s ease-in-out;
+  }
+  
+  .linkedin .border:hover {
+	background: #5258cf;
+	border-color: #6559ca;
+	color: rgba(255,255,255, 0.9);
+	transform: scale(1.2);
+  }
+  .fa.fa-linkedin {
+	font-size: 25px;
+  }
+
+  /* whatsapp */
+  .whatsapp {
+	width: 50px;
+	height: 50px;
+  }
+  
+  .whatsapp .border {
+	background: transparent;
+	outline: none;
+	color:rgb(25, 175, 25);
+	width: 50px;
+	height: 50px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	border-radius: 100px;
+	border: 2px solid rgb(25, 175, 25);
+	transition: all .2s ease-in-out;
+  }
+  
+  .whatsapp .border:hover {
+	background: rgb(25, 175, 25);
+	border-color: rgb(25, 175, 25);
+	color: rgba(255,255,255, 0.9);
+	transform: scale(1.2);
+  }
+  
+  .fa.fa-whatsapp {
+	font-size: 25px;
+  }
